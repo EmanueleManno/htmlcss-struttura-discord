@@ -4,3 +4,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*HEADER*/
+header {
+    background-color: lightblue;
+    height: 100px;
+}
+
+/*SEZIONE UNO*/
+.first-section {
+    background-color: darkblue;
+    height: 500px;
+}
+
+/*SEZIONE DUE*/
+.second-section {
+    background-color: white;
+    height: 500px;
+}
+
+/*SEZIONE TRE*/
+.third-section {
+    background-color: grey;
+    height: 500px;
+}
+
+/*SEZIONE QUATTRO*/
+.fourth-section {
+    background-color: white;
+    height: 500px;
+}
+
+/*SEZIONE CINQUE*/
+.fifth-section {
+    background-color: gray;
+    height: 800px;
+}
+
+/*SEZIONE SEI*/
+.sixth-section {
+    background-color: black;
+    height: 500px;
+}
+
+/*FOOTER*/
+footer {
+    background-color: black;
+    height: 100px;
+}
