@@ -56,6 +56,16 @@ header {
     padding-top: 50px;
 }
 
+/*PRIMO CONTENITORE*/
+.first-container {
+    background-color: fuchsia;
+    border: 5px;
+    border-color: black;
+    border-style: dashed;
+    height: 80%;
+    width: 50%;
+}
+
 /*SEZIONE DUE*/
 .second-section {
     background-color: white;
@@ -112,23 +122,39 @@ header {
 /*SEZIONE CINQUE*/
 .fifth-section {
     background-color: gray;
-    height: 800px;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.third-container {
+    border: 2px;
+    border-color: black;
+    border-style: dashed;
+    background-color: greenyellow;
+    height: 90%;
+    width: 70%;
+    margin-top: 50px;
 }
 
 /*SEZIONE SEI*/
 .sixth-section {
     background-color: black;
     height: 500px;
+    display: flex;
 }
 
-/*PRIMO CONTENITORE*/
-.first-container {
-    background-color: fuchsia;
-    border: 5px;
-    border-color: black;
-    border-style: dashed;
-    height: 80%;
-    width: 50%;
+/*PRIMA COLONNA SESTA SEZIONE*/
+.first-column-sixth-container {
+    height: 450px;
+    background-color: salmon;
+    flex-basis: 20%
+}
+
+/*HR*/
+hr {
+    color: white;
 }
 
 /*FOOTER*/
