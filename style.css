@@ -15,6 +15,10 @@ header {
 .first-section {
     background-color: darkblue;
     height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
 }
 
 /*SEZIONE DUE*/
@@ -45,6 +49,16 @@ header {
 .sixth-section {
     background-color: black;
     height: 500px;
+}
+
+/*PRIMO CONTENITORE*/
+.first-container {
+    background-color: fuchsia;
+    border: 5px;
+    border-color: black;
+    border-style: dashed;
+    height: 80%;
+    width: 50%;
 }
 
 /*FOOTER*/
