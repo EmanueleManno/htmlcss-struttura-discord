@@ -92,7 +92,11 @@ header {
 /*SEZIONE TRE*/
 .third-section {
     background-color: grey;
-    height: 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-top: 50px;
 }
 
 /*SEZIONE QUATTRO*/
