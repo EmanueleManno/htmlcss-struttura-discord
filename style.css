@@ -9,6 +9,41 @@
 header {
     background-color: lightblue;
     height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+/*CONTENITORE DELL'HEADER*/
+.header-container {
+    background-color: orange;
+    width: 70%;
+    height: 60px;
+    margin-top: 12.5px;
+    display: flex;
+}
+
+/*COLONNA DEL LOGO*/
+.logo-column {
+    border: 2px;
+    border-color: black;
+    border-style: dashed;
+    flex-basis: 20%;
+}
+
+/*COLONNA DEI LINK*/
+.link-column {
+    border: 2px;
+    border-color: black;
+    border-style: dashed;
+    flex-basis: 60%;
+}
+
+/*COLONNA DEL LOGIN*/
+.login-column {
+    border: 2px;
+    border-color: black;
+    border-style: dashed;
+    flex-basis: 20%;
 }
 
 /*SEZIONE UNO*/
