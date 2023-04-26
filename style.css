@@ -143,13 +143,31 @@ header {
     background-color: black;
     height: 500px;
     display: flex;
+    justify-content: center;
+    border: 2px;
+    border-color: black;
+    border-style: dashed;
+    padding-top: 5px;
 }
 
 /*PRIMA COLONNA SESTA SEZIONE*/
 .first-column-sixth-container {
     height: 450px;
     background-color: salmon;
-    flex-basis: 20%
+    flex-basis: 20%;
+    border: 2px;
+    border-color: black;
+    border-style: dashed;
+}
+
+/*SECONDA COLONNA SESTA SEZIONE*/
+.second-column-sixth-container {
+    height: 450px;
+    background-color: lightseagreen;
+    flex-basis: 10%;
+    border: 2px;
+    border-color: white;
+    border-style: dashed;
 }
 
 /*HR*/
@@ -161,4 +179,34 @@ hr {
 footer {
     background-color: black;
     height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+/*CONTAINER DEL FOOTER*/
+.footer-container {
+    height: 80px;
+    width: 80%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+/*LOGO DEL FOOTER*/
+.logo-footer {
+    height: 40px;
+    width: 50px;
+    background-color: pink;
+    display: inline;
+    margin-top: 20px;
+}
+
+/*BOTTONE DEL FOOTER*/
+.bottone-footer {
+    height: 40px;
+    width: 50px;
+    background-color: pink;
+    display: inline;
+    margin-top: 20px;
 }
